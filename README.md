@@ -30,9 +30,9 @@
 <img src="https://img.shields.io/badge/STS 4.19.0-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/gradle 8.3-02303A?style=for-the-badge&logo=gradle&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/aws-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">
 
 
-# 맡은 파트 -주문
+### 맡은 파트 -주문
 
-# 비회원 주문, 비회원 주문조회
+### 비회원 주문, 비회원 주문조회
 <img src="https://github.com/kkr95101/Danaga/assets/133841227/ec675b91-0a05-406a-9db8-08b074233d4b">
 
 # 회원 주문, 회원 주문목록, 주문상세목록
