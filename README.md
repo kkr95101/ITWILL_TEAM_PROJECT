@@ -54,9 +54,6 @@
 
 <img src="https://github.com/kkr95101/Danaga/assets/133841227/1531bdef-7f9a-40d0-943c-9b8c1294778d">
 
-### ERD Table
-<img src="https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/ba91aeae-21ba-425d-803b-8fb5d7b7e6de"/>
-
 
 ### 📁 상세보기
 ⏩[다나가](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/tree/main/Danaga)
