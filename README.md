@@ -22,6 +22,43 @@
 
 </details>
 
+# 02. MyProtein - 보충제사이트
+<details>
+  
+### 💻 프로젝트 소개
+현재 운영되고 있는 마이프로틴 페이지를 모방한 사이트입니다.`
+
+### 📅 개발 기간
+**총 8일** (2023.08.18. ~ 2023.08.25.)
+
+### ⚙ 개발 환경
+#### ✔ Back-End
+<img src="https://img.shields.io/badge/java 1.8-2C2255?style=for-the-badge&logo=openJDK&logoColor=white"> <img src="https://img.shields.io/badge/JSP-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black"> <img src="https://img.shields.io/badge/mybatis-000000?style=for-the-badge&logo=amazondocumentdb&logoColor=white"> <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white">
+
+#### ✔ Front-End
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+
+#### ✔ Tools
+<img src="https://img.shields.io/badge/eclipse ee-2C2255?style=for-the-badge&logo=eclipse&logoColor=white"> <img src="https://img.shields.io/badge/gradle 8.3-02303A?style=for-the-badge&logo=gradle&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+
+### 📄 주요 기능
+| 메인 페이지 |
+|:--------:|
+|![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/6f4fc848-75ae-40c8-9f64-5c75134e2b23)|
+
+
+|**게시판 페이지**|**상품 페이지**|
+|![image](https://github.com/Roco-LEE/IWILL_TEAM_PROJECT/assets/133840827/16b375fb-6bbc-4bf9-b881-4fd1a1984126)|![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/3abc47cf-11b2-4181-9116-48354610775d)
+|
+|**장바구니 페이지**|**주문 페이지**|
+|![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/1014d445-0e07-4527-945b-76c4d7141957)
+|![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/81884720-8a9d-4e9c-8150-7a702759f562)|
+
+### 📁 상세보기
+⏩[sellPhone](https://github.com/Roco-LEE/IWILL_TEAM_PROJECT/tree/master/02.sellPhone)
+</details>
+
+
 # 03. Avangers - Danaga
 # 💻 최저가 전자제품 구매
 <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/8D63BFCB55921C27B39DB09FFD775F1C1EDE00FC4D5611AC492CA33B7651FDF2/scale?width=1440&aspectRatio=1.78&format=jpeg" width="800" height="400"/>
