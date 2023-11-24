@@ -3,8 +3,8 @@
 ### 📁 상세보기
 ⏩[교양있조](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/tree/main/Gyoyangmungo)
 
-### ERD Table
-<img src="https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/ba91aeae-21ba-425d-803b-8fb5d7b7e6de"/>
+### 📅 개발 기간
+**총 12일** (2023.07.14. ~ 2023.07.25.)
 
 ### ⚙ 개발 환경
 #### ✔ Back-End
@@ -15,6 +15,10 @@
 
 #### ✔ Tools
 <img src="https://img.shields.io/badge/eclipse se-2C2255?style=for-the-badge&logo=eclipse&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+
+### ERD Table
+<img src="https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/ba91aeae-21ba-425d-803b-8fb5d7b7e6de"/>
+
 
 </details>
 
