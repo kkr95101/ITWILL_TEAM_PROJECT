@@ -1,6 +1,7 @@
 # 01. 교양있조 - 교양문고
 <details>
-<img src="https://github.com/kkr95101/ITWILL_TEAM_PROJECT/tree/main/Gyoyangmungo">
+<img src="https://github.com/kkr95101/ITWILL_TEAM_PROJECT/tree/main/Gyoyangmungo"/>
+<img src="https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/ba91aeae-21ba-425d-803b-8fb5d7b7e6de"/>
 </details>
 
 # 03. Avangers - Danaga
