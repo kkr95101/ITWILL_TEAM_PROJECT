@@ -42,7 +42,7 @@
 <img src="https://img.shields.io/badge/eclipse ee-2C2255?style=for-the-badge&logo=eclipse&logoColor=white"> <img src="https://img.shields.io/badge/gradle 8.3-02303A?style=for-the-badge&logo=gradle&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 ### 📄 주요 기능
-| 메인 페이지 |  |
+| 메인 페이지 |
 |:--------:|:----------:|
 |![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/6f4fc848-75ae-40c8-9f64-5c75134e2b23)|
 
