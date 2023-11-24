@@ -1,7 +1,5 @@
 # 01. 교양있조 - 교양문고
 <details>
-### 📁 상세보기
-⏩[교양있조](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/tree/main/Gyoyangmungo)
 
 ### 📅 개발 기간
 **총 12일** (2023.07.14. ~ 2023.07.25.)
@@ -19,7 +17,8 @@
 ### ERD Table
 <img src="https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/ba91aeae-21ba-425d-803b-8fb5d7b7e6de"/>
 
-
+### 📁 상세보기
+⏩[교양있조](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/tree/main/Gyoyangmungo)
 </details>
 
 # 02. MyProtein - 보충제사이트
@@ -41,6 +40,11 @@
 #### ✔ Tools
 <img src="https://img.shields.io/badge/eclipse ee-2C2255?style=for-the-badge&logo=eclipse&logoColor=white"> <img src="https://img.shields.io/badge/gradle 8.3-02303A?style=for-the-badge&logo=gradle&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
+### ERD Table
+![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/fb8c6972-a99e-4401-9e07-2731f8ed0698)
+
+
+
 
 ### 📄 주요 기능
 | 메인 페이지 ||
@@ -48,6 +52,7 @@
 |![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/6f4fc848-75ae-40c8-9f64-5c75134e2b23)|
 |**장바구니 페이지**|**주문 페이지**|
 |![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/1014d445-0e07-4527-945b-76c4d7141957)|![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/81884720-8a9d-4e9c-8150-7a702759f562)|
+
 
 
 
