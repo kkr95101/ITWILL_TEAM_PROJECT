@@ -15,6 +15,7 @@
 어벤져스도 울고간 가격
 
 
+
 ### 📅 개발 기간
 **총 35일** (2023.10.12. ~ 2023.11.15.)
 ![image](https://github.com/Roco-LEE/IWILL_TEAM_PROJECT/assets/133840827/259ecd10-aa83-42ba-b44c-973d98cf96b3)
@@ -41,6 +42,8 @@
 #### ✔ Tools
 <img src="https://img.shields.io/badge/STS 4.19.0-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/gradle 8.3-02303A?style=for-the-badge&logo=gradle&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/aws-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">
 
+### ERD Table
+<img src="https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/640bc992-458b-41af-85a6-974272597f83"/>
 
 ### 맡은 파트 -주문
 
@@ -50,5 +53,12 @@
 #### 회원 주문, 회원 주문목록, 주문상세목록
 
 <img src="https://github.com/kkr95101/Danaga/assets/133841227/1531bdef-7f9a-40d0-943c-9b8c1294778d">
+
+### ERD Table
+<img src="https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/ba91aeae-21ba-425d-803b-8fb5d7b7e6de"/>
+
+
+### 📁 상세보기
+⏩[다나가](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/tree/main/Danaga)
 
 
