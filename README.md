@@ -52,7 +52,7 @@
 
 
 ### 📁 상세보기
-⏩[sellPhone](https://github.com/Roco-LEE/IWILL_TEAM_PROJECT/tree/master/02.sellPhone)
+⏩[Hellinideul](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/tree/main/Hellinideul)
 </details>
 
 
