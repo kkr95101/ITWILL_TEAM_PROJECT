@@ -1,5 +1,6 @@
-# 01. hotSix - 원데이클라스
+# 01. 교양있조 - 교양문고
 <details>
+<img src="https://github.com/kkr95101/ITWILL_TEAM_PROJECT/tree/main/Gyoyangmungo">
 </details>
 
 # 03. Avangers - Danaga
