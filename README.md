@@ -32,10 +32,10 @@
 
 ### 맡은 파트 -주문
 
-### 비회원 주문, 비회원 주문조회
+#### 비회원 주문, 비회원 주문조회
 <img src="https://github.com/kkr95101/Danaga/assets/133841227/ec675b91-0a05-406a-9db8-08b074233d4b">
 
-# 회원 주문, 회원 주문목록, 주문상세목록
+#### 회원 주문, 회원 주문목록, 주문상세목록
 
 <img src="https://github.com/kkr95101/Danaga/assets/133841227/1531bdef-7f9a-40d0-943c-9b8c1294778d">
 
