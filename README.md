@@ -47,6 +47,7 @@
 |![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/6f4fc848-75ae-40c8-9f64-5c75134e2b23)|
 
 |**상품 페이지**|
+|:--------:|
 |![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/3abc47cf-11b2-4181-9116-48354610775d)|
 |**장바구니 페이지**|**주문 페이지**|
 |![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/1014d445-0e07-4527-945b-76c4d7141957)
