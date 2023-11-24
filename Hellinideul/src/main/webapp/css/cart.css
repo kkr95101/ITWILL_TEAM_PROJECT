@@ -1,0 +1,39 @@
+.w3-green, .w3-hover-green:hover {
+    color: #fff!important;
+    background-color: #4CAF50!important;
+}
+.w3-badge {
+	border-radius: 60%;
+}
+.w3-badge, .w3-tag {
+	background-color: #000;
+	color: #fff;
+	display: inline-block;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+	position: relative;
+	left: 25px;
+	font-size: 2pt;
+}
+.w3-green-no-login, .w3-hover-green-no-login:hover {
+    color: #fff!important;
+    background-color: #fff!important;
+}
+.w3-badge-no-login {
+	border-radius: 60%;
+}
+.w3-badge-no-login, .w3-tag-no-login {
+	background-color: #ffffff;
+	color: #fff;
+	display: inline-block;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+	position: relative;
+	left: 5px;
+	font-size: 2pt;
+}
+.w3-badge-menu{
+	left: 2px;
+}

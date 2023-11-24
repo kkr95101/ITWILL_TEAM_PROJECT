@@ -1,0 +1,81 @@
+ @charset "UTF-8";
+
+*{padding:0;margin:0}
+li{list-style:none}
+a{text-decoration:none;font-size:14px};
+/*
+.menu {
+  width: 800px;
+  overflow: hidden;
+  margin: 150px auto;
+}
+
+.menu > li {
+  width: 33.3%; 20*5=100%
+  float: left;
+  text-align: center;
+  line-height: 20px;
+  background-color: white;
+}
+
+.menu a {
+  color: black;
+}
+
+.submenu > li {
+  line-height: 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+.submenu {
+  height: 0; ul의 높이를 안보이게 처리
+  overflow: hidden;
+}
+
+.menu > li:hover {
+  background-color: rgb(255, 255, 255);
+  transition-duration: 0.5s;
+}
+
+.menu > li:hover .submenu {
+  height: 200px; 서브메뉴 li한개의 높이 50*5
+  transition-duration: 1s;
+}*/
+
+	#menuTest {
+		font:bold 16px "malgun gothic";
+		width:800px;
+		height:50px;
+		background: #ccc;
+		color:black;
+		line-height: 50px; 
+		margin: 150px auto;
+		text-align: center;
+	}
+
+/* menu태그 자식의 ul의 자식 li를 왼쪽정렬과 넓이 140설정 */
+	#menuTest > ul > li {
+		float:left;
+		width:33.3%;
+		text-align: center;
+		position:relative;
+		background: lightblue
+		}
+	
+	#menuTest > ul > li > ul {
+		width:180px;
+		display:none;
+		text-align: center;
+		position: absolute;
+		font-size:14px;
+		background: white;
+	}
+	
+	#menuTest > ul > li:hover > ul {
+		display:block;
+	}
+	
+	#menuTest > ul > li > ul > li:hover {
+		background: lightgrey;
+		transition: ease 1s;
+		}

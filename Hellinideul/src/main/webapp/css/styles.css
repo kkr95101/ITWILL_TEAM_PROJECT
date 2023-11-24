@@ -1,0 +1,97 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 76% arial, sans-serif;
+	text-align: center;
+}
+
+p {
+	margin: 0 10px 10px;
+}
+
+a {
+	padding: 5px;
+	text-decoration: none;
+	color: #000000;
+}
+
+div#header {
+	background-color: #F3F2ED;
+	background: #fff url('../image/nav_bg01.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+div#header h1 {
+	height: 80px;
+	line-height: 80px;
+	margin: 17px 0 0 0;
+	padding-left: 10px;
+}
+
+div#container {
+	width: 700px;
+	margin: 0 auto;
+	text-align: left;
+	/* clearfix 적용 */
+	overflow: auto;
+}
+
+div#content p {
+	line-height: 1.4;
+}
+
+div#navigation {
+	background: #EBF5FF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	width: 150px;
+	overflow-y: auto; /* 넘쳐흘려서 스크롤 만듦 */
+}
+
+div#navigation ul {
+	margin: 15px 10px;
+	padding: 0;
+	list-style-type: none;
+}
+
+div#navigation li {
+	margin-bottom: 5px;
+}
+
+div#navigation p {
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+div#footer {
+	background: #EBF5FF;
+	width: 100%; /* 풋터의 너비를 확실하게 지정 */
+	clear: both; 
+}
+
+div#footer p {
+	margin: 0;
+	padding: 5px 10px;
+}
+
+div#wrapper {
+	margin-left: 0px;
+	width: 100%;
+}
+
+div#content {
+	margin: 0 0 0 150px;
+}
+
+/* Clearfix 추가 */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>다나가닷컴 - 게시글 관리</title>
+
+	<!-- Custom fonts for this template -->
+	<link href="/bootstrap_admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+	<link
+		href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+		rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="/bootstrap_admin/css/sb-admin-2.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this page -->
+	<link href="/bootstrap_admin/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+	<!-- Page Wrapper -->
+	<div id="wrapper">
+
+		<!-- Sidebar Start -->
+		<div th:insert="~{admin/admin_include::nav}"></div>
+		<!-- Sidebar End -->
+
+		<!-- Content Wrapper -->
+		<div id="content-wrapper" class="d-flex flex-column">
+
+			<!-- Main Content -->
+			<div id="content">
+
+				<!-- Begin Page Content -->
+				<div class="container-fluid">
+
+					<!-- Page Heading -->
+					<h1 class="h3 mb-2 text-gray-800" style="margin-top: 20px;">공지사항 업로드</h1>
+
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="card shadow mb-4">
+								<div class="card-header py-3">
+									<h6 class="m-0 font-weight-bold text-primary text-center">공지사항 업로드</h6>
+								</div>
+								<div class="card o-hidden border-0 shadow-lg">
+									<div class="card-body p-0">
+										<!-- Nested Row within Card Body -->
+										<div class="p-4">
+											<div class="text-center">
+												<h3 class="h5 text-gray-900 mb-2"
+													style="margin-top: 30px; font-weight: bold;">
+													제목
+												</h3>
+											</div>
+											<div class="form-group row">
+												<div class="col-sm-12" style="margin-top: 10px;">
+													<input type="text" class="form-control form-control-user"
+														id="txtTitle" placeholder="제목을 입력하세요" />
+												</div>
+											</div>
+											<hr>
+											<div class="text-center">
+												<h3 class="h5 text-gray-900 mb-2"
+													style="margin-top: 30px; font-weight: bold;">
+													내용
+												</h3>
+											</div>
+											<div class="form-group row">
+												<div class="col-sm-12" style="margin-top: 10px;">
+													<textarea class="form-control form-control-user" id="txtContent"
+														placeholder="내용을 입력하세요" style="height: 400px;"></textarea>
+												</div>
+											</div>
+											<a class="btn btn-primary btn-icon-split"
+												style="float: right; margin-bottom: 20px;"
+												onclick="createAdminBoard();">
+												<span class="icon text-white-50">
+													<i class="fas fa-arrow-right"></i>
+												</span>
+												<span class="text">공지사항 등록</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+				<!-- /.container-fluid -->
+
+			</div>
+			<!-- End of Main Content -->
+
+			<!-- Footer -->
+			<div th:insert="~{admin/admin_include::bottom}"></div>
+			<!-- End of Footer -->
+
+		</div>
+		<!-- End of Content Wrapper -->
+
+	</div>
+	<!-- End of Page Wrapper -->
+
+	<!-- Scroll to Top Button-->
+	<a class="scroll-to-top rounded" href="#page-top">
+		<i class="fas fa-angle-up"></i>
+	</a>
+
+
+	<!-- Bootstrap core JavaScript-->
+	<script src="/bootstrap_admin/vendor/jquery/jquery.min.js"></script>
+	<script src="/bootstrap_admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Core plugin JavaScript-->
+	<script src="/bootstrap_admin/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	<!-- Custom scripts for all pages-->
+	<script src="/bootstrap_admin/js/sb-admin-2.min.js"></script>
+
+	<!-- Page level plugins -->
+	<script src="/bootstrap_admin/vendor/datatables/jquery.dataTables.min.js"></script>
+	<script src="/bootstrap_admin/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+	<!-- Page level custom scripts -->
+	<script src="/bootstrap_admin/js/demo/datatables-demo.js"></script>
+	<script>
+		function createAdminBoard() {
+			var sendJsonObject = {
+				"title": $("#txtTitle").val(),
+				"content": $("#txtContent").val()
+			};
+
+			$.ajax({
+				type: "POST",
+				url: "/admin_data/board",
+				contentType: "application/json",
+				data: JSON.stringify(sendJsonObject),
+				success: function () {
+					location.href = '/board4';
+				},
+				error: function (e) {
+					alert(e + '왜 안되지?');
+				}
+			});
+
+		}
+
+	</script>
+
+</body>
+
+</html>

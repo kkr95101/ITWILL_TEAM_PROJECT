@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
+}
+
+a:link {
+	color: #333333;
+}
+
+a:active {
+	color: #333333;
+}
+
+a:hover {
+	color: #bea12c;
+	font-style: bold;
+}
+
+#wrap {
+	width: 1300px;
+	margin: 50px auto 0px auto;
+}
+
+
+/* Style the header */
+#header h1 {
+	margin: 0 0 20px 0;
+	text-align: left;
+	display: flex;
+	height: 130px;
+	background: #fff url('image/nav_bg01.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%
+}
+
+/* Create two columns/boxes that floats next to each other */
+.menu {
+	float: left;
+	width: 300px;
+	height: 600px; /* only for demonstration, should be removed */
+	background: #ddd;
+	padding: 20px 20px 20px 0px;
+}
+
+/* Style the list inside the menu */
+.menu li {
+	list-style-type: none;
+	padding: 0;
+}
+
+.menu li a {
+	display: block;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.content {
+	float: left;
+	padding: 20px;
+	width: 980px;
+	margin-left: 20px;
+	background-color: #f1f1f1;
+	height: 600px; /* only for demonstration, should be removed */
+	margin-bottom: 20px;
+}
+
+/* Style the footer */
+.footer {
+	background-color: #777;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	clear: both;
+	height: 70px;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media ( max-width : 600px) {
+	.menu, .content {
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+	}
+}
+/***********top nav******************/
+#top_menu {
+	display: flex;
+}
+.logo .search {
+	flex:none;
+}
+.logo{
+ 	padding: 20px 30px;
+    background-color: rgba(0, 0, 0, .4);
+    width: 100px;
+    background: url('./image/itwill-logo.png');
+    background-position: left;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+
+}
+.search {
+    display: flex;
+    width: 400px;
+    padding: 14px 0;
+    margin-left: auto;
+}
+.search_button {
+    width: 30px;
+    height: 30px;
+	border: 0;
+	background: url('./image/search_image20.png');
+	background-repeat: no-repeat;
+	margin: 5px;
+	cursor: pointer;
+	
+}
+input{
+    flex:1;
+    height: 30px;
+    background-color: white;
+    border: 0.5px solid #555555;
+}
+
+</style>
+</head>
+<body>
+	<div id="wrap">
+		<div id="header" class="header">
+			<div id="top_menu">
+				<div class="logo"></div>
+				<div class="search">
+					<input type="text" title="검색" class="search_input">
+					<button type="button" class="search_button"></button>
+				</div>
+				
+			</div>
+			<h1></h1>
+		</div>
+
+		<div id="menu" class="menu">
+			<ul>
+				<li><a href="user_login_form.jsp">로그인</a></li>
+				<li><a href="user_write_form.jsp">회원가입</a></li>
+				<li><a href="user_write_form_popup.jsp">회원가입[팝업]</a></li>
+				<li><a href=""></a></li>
+				<li><a href="javascript:login_message();">장바구니</a></li>
+			</ul>
+		</div>
+		<div id="content" class="content"></div>
+
+		<div id="footer" class="footer">
+			<p align="center">Copyright (&copy;) By Java Class 5. All rights
+				reserved.</p>
+		</div>
+	</div>
+</body>
+</html>
+

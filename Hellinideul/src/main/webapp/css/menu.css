@@ -1,0 +1,86 @@
+@import url("cart.css");
+div#header {
+	all: unset; 
+	background-color: #F3F2ED;
+}
+
+div#header h1 {
+	height: 80px;
+	line-height: 80px;
+	margin: 0px 0 0 0;
+	padding-left: 10px;
+	background: #fff url(../image/nav_bg01.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%
+}
+div#header #menu {
+	margin-top:10px; 
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+#menu ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#menu li#logo {
+	float: left;
+}
+#menu li{
+	float: right;
+}
+
+#menu li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 16px 20px 16px;
+	text-decoration: none;
+}
+#menu .active {
+	background-color: #4CAF50;
+}
+
+#menu li#logo {
+	width: 80px;
+
+	background: url('../image/myProtein_logo.png');
+
+	background-position: left;
+	background-size: 110%;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+}
+#menu li#logo:hover{
+	opacity: 1;
+}
+#menu li#cart {
+	width: 40px;
+	background: url('../image/image__header-cart.svg');
+	background-position: center;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+}
+#menu li#cart:hover{
+	opacity: 1;
+}
+ #menu li#mypage {
+	width: 40px;
+	background: url('../image/image__header-mypage.svg');
+	background-position: bottom;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+}
+#menu limypage:hover{
+	opacity: 1;
+}

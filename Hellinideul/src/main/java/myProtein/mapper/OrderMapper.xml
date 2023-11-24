@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="myProtein.mapper.OrderMapper">
+	<resultMap type="myProtein.order.Order" id="orderResultMap" autoMapping="true">
+		<id column="o_no" property="o_no"/>
+		<collection property="orderItemList" ofType="myProtein.order.OrderItem" autoMapping="true">
+			<id column="oi_no"  property="oi_no"/>
+			<association property="product" javaType="myProtein.product.Product" autoMapping="true">
+				<id column="p_no" property="p_no"/>
+			</association>
+		</collection>
+	</resultMap>
+</mapper>	
+	
