@@ -1,6 +1,6 @@
 # 01. hotSix - 원데이클라스
 <details>
-
+</details>
 
 # 03. Avangers - Danaga
 # 💻 최저가 전자제품 구매
