@@ -18,7 +18,7 @@
 <img src="https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/ba91aeae-21ba-425d-803b-8fb5d7b7e6de"/>
 
 ### 📁 상세보기
-⏩[교양있조](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/tree/main/Gyoyangmungo)
+⏩[교양문고](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/tree/main/Gyoyangmungo)
 </details>
 
 # 02. MyProtein - 보충제사이트
