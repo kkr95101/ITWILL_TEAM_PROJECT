@@ -38,6 +38,7 @@ public class BoardController {
 	private CommentsService cService;
 	
 	
+	
 	@GetMapping("/board{boardGroupId}")
 	public String list(@PathVariable(name = "boardGroupId") Long boardGroupId,
 			@RequestParam(name = "searchKeyword", required = false, defaultValue = "") String searchKeyword,
