@@ -100,11 +100,20 @@
 ### 맡은 파트 -주문
 
 #### 비회원 주문, 비회원 주문조회
-<img src="https://github.com/kkr95101/Danaga/assets/133841227/ec675b91-0a05-406a-9db8-08b074233d4b">
+
+
+
+
+https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/a025f23e-846a-4dbf-9904-172a20c77c80
+
+
+
+
 
 #### 회원 주문, 회원 주문목록, 주문상세목록
+![회원주문 수정 찐](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/111fef5e-9069-4542-9e5a-e0494c2d4d42)
 
-<img src="https://github.com/kkr95101/Danaga/assets/133841227/1531bdef-7f9a-40d0-943c-9b8c1294778d">
+
 
 
 ### 📁 상세보기
