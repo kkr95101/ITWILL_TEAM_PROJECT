@@ -1,6 +1,72 @@
+# 01. 교양있조 - 교양문고
+<details>
+
+### 📅 개발 기간
+**총 12일** (2023.07.14. ~ 2023.07.25.)
+
+
+### ⚙ 개발 환경
+#### ✔ Back-End
+<img src="https://img.shields.io/badge/java 1.8-2C2255?style=for-the-badge&logo=openJDK&logoColor=white"> <img src="https://img.shields.io/badge/jdbc-000000?style=for-the-badge&logo=amazondocumentdb&logoColor=white"> <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white">
+
+#### ✔ Front-End
+<img src="https://img.shields.io/badge/swing-2F2625?style=for-the-badge&logo=coffeescript&logoColor=white">
+
+#### ✔ Tools
+<img src="https://img.shields.io/badge/eclipse se-2C2255?style=for-the-badge&logo=eclipse&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+
+### ERD Table
+<img src="https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/ba91aeae-21ba-425d-803b-8fb5d7b7e6de"/>
+
+### 📁 상세보기
+⏩[교양문고](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/tree/main/Gyoyangmungo)
+</details>
+
+# 02. MyProtein - 보충제사이트
+<details>
+  
+### 💻 프로젝트 소개
+현재 운영되고 있는 마이프로틴 페이지를 모방한 사이트입니다.`
+
+### 📅 개발 기간
+**총 8일** (2023.08.18. ~ 2023.08.25.)
+
+### ⚙ 개발 환경
+#### ✔ Back-End
+<img src="https://img.shields.io/badge/java 1.8-2C2255?style=for-the-badge&logo=openJDK&logoColor=white"> <img src="https://img.shields.io/badge/JSP-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black"> <img src="https://img.shields.io/badge/mybatis-000000?style=for-the-badge&logo=amazondocumentdb&logoColor=white"> <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white">
+
+#### ✔ Front-End
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+
+#### ✔ Tools
+<img src="https://img.shields.io/badge/eclipse ee-2C2255?style=for-the-badge&logo=eclipse&logoColor=white"> <img src="https://img.shields.io/badge/gradle 8.3-02303A?style=for-the-badge&logo=gradle&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+
+### ERD Table
+![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/fb8c6972-a99e-4401-9e07-2731f8ed0698)
+
+
+
+
+### 📄 주요 기능
+| 메인 페이지 ||
+|:--------:|:----------:|
+|![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/6f4fc848-75ae-40c8-9f64-5c75134e2b23)|
+|**장바구니 페이지**|**주문 페이지**|
+|![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/1014d445-0e07-4527-945b-76c4d7141957)|![image](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/81884720-8a9d-4e9c-8150-7a702759f562)|
+
+
+
+
+### 📁 상세보기
+⏩[Hellinideul](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/tree/main/Hellinideul)
+</details>
+
+
+# 03. Avangers - Danaga
 # 💻 최저가 전자제품 구매
 <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/8D63BFCB55921C27B39DB09FFD775F1C1EDE00FC4D5611AC492CA33B7651FDF2/scale?width=1440&aspectRatio=1.78&format=jpeg" width="800" height="400"/>
 어벤져스도 울고간 가격
+
 
 
 ### 📅 개발 기간
@@ -29,14 +95,23 @@
 #### ✔ Tools
 <img src="https://img.shields.io/badge/STS 4.19.0-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/gradle 8.3-02303A?style=for-the-badge&logo=gradle&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/aws-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">
 
+### ERD Table
+<img src="https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/640bc992-458b-41af-85a6-974272597f83"/>
 
 ### 맡은 파트 -주문
 
 #### 비회원 주문, 비회원 주문조회
-<img src="https://github.com/kkr95101/Danaga/assets/133841227/ec675b91-0a05-406a-9db8-08b074233d4b">
+
+![비회원주문 수정 찐](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/732631f3-07b1-4a37-902e-5ec11081ef3b)
 
 #### 회원 주문, 회원 주문목록, 주문상세목록
 
-<img src="https://github.com/kkr95101/Danaga/assets/133841227/1531bdef-7f9a-40d0-943c-9b8c1294778d">
+
+![회원주문 수정 찐](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/f064bbaf-feb4-42d7-9c34-598e2c24e98a)
+
+
+
+### 📁 상세보기
+⏩[다나가](https://github.com/kkr95101/ITWILL_TEAM_PROJECT/tree/main/Danaga)
 
 
