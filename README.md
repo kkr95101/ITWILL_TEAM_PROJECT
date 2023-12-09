@@ -13,7 +13,7 @@
 <img src="https://img.shields.io/badge/swing-2F2625?style=for-the-badge&logo=coffeescript&logoColor=white">
 
 #### ✔ Tools
-<img src="https://img.shields.io/badge/eclipse se-2C2255?style=for-the-badge&logo=eclipse&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/eclipse se-2C2255?style=for-the-badge&logo=eclipse&logoColor=white"> 
 
 ### ERD Table
 <img src="https://github.com/kkr95101/ITWILL_TEAM_PROJECT/assets/133841227/ba91aeae-21ba-425d-803b-8fb5d7b7e6de"/>
