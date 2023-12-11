@@ -6,15 +6,10 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.danaga.config.OrderStateMsg;
-import com.danaga.dao.MemberDao;
 import com.danaga.dao.OrderDao;
 import com.danaga.dao.product.OptionSetDao;
 import com.danaga.dto.*;
-import com.danaga.dto.product.ProductDto;
 import com.danaga.entity.*;
-import com.danaga.repository.CartRepository;
-import com.danaga.repository.OrderItemRepository;
-import com.danaga.service.product.OptionSetService;
 
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
