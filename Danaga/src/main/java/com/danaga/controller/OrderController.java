@@ -50,6 +50,7 @@ public class OrderController {
 	 */
 	@GetMapping("/order_complete_to_index")
 	public String orderCompleteToIndex() {
+		
 		return "/index";
 	}
 
